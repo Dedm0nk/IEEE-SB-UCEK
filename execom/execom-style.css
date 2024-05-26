@@ -1,14 +1,26 @@
-.chair{
-    transform: translateY(-40px);
+.chair {
+  transform: translateY(-40px);
 }
 
-.card:hover{
-    scale: 1.025;
-    transition: 0.3s;
+.card,
+.team-lead {
+  transition: 0.3s;
 }
 
-@media(max-width:768px){
-    .chair{
-        transform: translateY(0);
-    }
+.card:hover {
+  transform: scale(1.04);
+}
+
+.team-lead:hover {
+  transform: scale(1.05);
+}
+
+h1.display-4 {
+  padding: 80px 0;
+}
+
+@media (max-width: 768px) {
+  .chair {
+    transform: translateY(0);
+  }
 }
