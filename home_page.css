@@ -58,7 +58,7 @@ body {
 } */
 
 .text-center p {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 /* About Section, Events Section, SB Chapters Section */
@@ -172,7 +172,7 @@ body {
 
 @media (max-width: 991px) {
   html {
-    font-size: 55%;
+    font-size: 0.8rem;
   }
 }
 
@@ -185,7 +185,7 @@ body {
 
 @media (max-width: 450px) {
   html {
-    font-size: 50%;
+    font-size: 0.65rem;
   }
   .counter-wrapper {
     grid-template-columns: 1fr;

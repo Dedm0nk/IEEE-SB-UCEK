@@ -15,6 +15,10 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
     <link rel="stylesheet" href="execom-style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
   </head>
   <body>
     <nav class="header">
@@ -36,20 +40,20 @@
         </a>
 
         <ul class="nav nav-pills pe-2">
-          <li class="nav-item" style="translate: 30px 0px">
+          <li class="nav-item" style="translate: 20px 0px">
             <a
               href="../index.html"
               class="nav-link link-light link-opacity-50-hover"
               >Home</a
             >
           </li>
-          <li class="nav-item" style="translate: 20px 0px">
+          <!-- <li class="nav-item" style="translate: 20px 0px">
             <a
               href="../past-events/past-events.html"
               class="nav-link link-light link-opacity-50-hover"
               >Events</a
             >
-          </li>
+          </li> -->
           <li class="nav-item" style="translate: 10px 0px">
             <a
               href="../gallery/gallery.html"
@@ -114,13 +118,13 @@
             </div>
           </div>
           <!--Execom Cards -->
-          <div class="row px-4 py-5 g-2 text-center">
+          <div class="row px-4 py-5 g-2 text-center hide">
             <div class="col">
               <div class="card h-100 shadow border">
                 <div class="card-body">
                   <h5 class="card-title fw-bold">Angana S</h5>
                   <img
-                    src="../gallery/imgs/Snake_1080x1080.png"
+                    src="../execom/ExecomPics/Angana.jpg"
                     class="card-img rounded-circle p-4"
                     alt="..."
                   />
@@ -146,7 +150,7 @@
                 <div class="card-body">
                   <h5 class="card-title fw-bold">Abinav Nair</h5>
                   <img
-                    src="../gallery/imgs/Snake_1080x1080.png"
+                    src="../execom/ExecomPics/Abinav.jpg"
                     class="card-img rounded-circle p-4"
                     alt="..."
                   />
@@ -198,7 +202,7 @@
                 <div class="card-body">
                   <h5 class="card-title fw-bold">Navaneeth C L</h5>
                   <img
-                    src="../gallery/imgs/Snake_1080x1080.png"
+                    src="../execom/ExecomPics/Navaneeth CL.jpg"
                     class="card-img rounded-circle p-4"
                     alt="..."
                   />
@@ -250,7 +254,7 @@
                 <div class="card-body">
                   <h5 class="card-title fw-bold">Thasnim Nissar Ali</h5>
                   <img
-                    src="../gallery/imgs/Snake_1080x1080.png"
+                    src="../execom/ExecomPics/Thasnim Nissar Ali.jpg"
                     class="card-img rounded-circle p-4"
                     alt="..."
                   />
@@ -276,7 +280,7 @@
                 <div class="card-body">
                   <h5 class="card-title fw-bold">Amaze Al Harris</h5>
                   <img
-                    src="../gallery/imgs/Snake_1080x1080.png"
+                    src="../execom/ExecomPics/Amaze Al Harris.jpg"
                     class="card-img rounded-circle p-4"
                     alt="..."
                   />
@@ -297,8 +301,92 @@
               </div>
             </div>
           </div>
+          <!--Execom Cards Carousel -->
+          <div class="wrapper hideCarousel">
+            <i id="left" class="fa-solid fas fa-angle-left"></i>
+            <ul class="carousel">
+              <li class="cardC">
+                <div class="img">
+                  <img
+                    src="../execom/ExecomPics/Navaneeth CL.jpg"
+                    alt=""
+                    draggable="false"
+                  />
+                </div>
+                <h2>Navaneeth C L</h2>
+                <span>Chairperson</span>
+              </li>
+              <li class="cardC">
+                <div class="img">
+                  <img
+                    src="../execom/ExecomPics/anjana.JPG"
+                    alt=""
+                    draggable="false"
+                  />
+                </div>
+                <h2>Anjana R Nair</h2>
+                <span>Vice Chairperson</span>
+              </li>
+              <li class="cardC">
+                <div class="img">
+                  <img
+                    src="../execom/ExecomPics/adwaith.JPG"
+                    alt=""
+                    draggable="false"
+                  />
+                </div>
+                <h2>Adwaith Krishna S J</h2>
+                <span>General Secretary</span>
+              </li>
+              <li class="cardC">
+                <div class="img">
+                  <img
+                    src="../execom/ExecomPics/Angana.jpg"
+                    alt=""
+                    draggable="false"
+                  />
+                </div>
+                <h2>Angana S</h2>
+                <span>LINK Representative</span>
+              </li>
+              <li class="cardC">
+                <div class="img">
+                  <img
+                    src="../execom/ExecomPics/Abinav.jpg"
+                    alt=""
+                    draggable="false"
+                  />
+                </div>
+                <h2>Abinav Nair</h2>
+                <span>Electronic Communications Coordinator</span>
+              </li>
+              <li class="cardC">
+                <div class="img">
+                  <img
+                    src="../execom/ExecomPics/Thasnim Nissar Ali.jpg"
+                    alt=""
+                    draggable="false"
+                  />
+                </div>
+                <h2>Thasnim Nissar Ali</h2>
+                <span>Treasurer</span>
+              </li>
+              <li class="cardC">
+                <div class="img">
+                  <img
+                    src="../execom/ExecomPics/Amaze Al Harris.jpg"
+                    alt=""
+                    draggable="false"
+                  />
+                </div>
+                <h2>Amaze Al Harris</h2>
+                <span>Web Master</span>
+              </li>
+            </ul>
+            <i id="right" class="fa-solid fas fa-angle-right"></i>
+          </div>
           <!-- Secretaries -->
-          <div class="row text-center px-4 mx-4 justify-content-center">
+          <div class="row text-center px-4 mx-4 justify-content-center hide">
             <div class="col-2">
               <div class="card h-100 shadow border">
                 <div class="card-body">
@@ -433,6 +521,68 @@
               </div>
             </div>
           </div>
+          <!-- Scretaries Carousel -->
+          <div class="wrapper hideCarousel">
+            <i id="left" class="fa-solid fas fa-angle-left"></i>
+            <ul class="carousel">
+              <li class="cardC">
+                <div class="img">
+                  <img
+                    src="../execom/ExecomPics/abhirami.JPG"
+                    alt=""
+                    draggable="false"
+                  />
+                </div>
+                <h2>Abhirami M S Nair</h2>
+                <span>WIE Coordinator</span>
+              </li>
+              <li class="cardC">
+                <div class="img">
+                  <img
+                    src="../execom/ExecomPics/theertha.JPG"
+                    alt=""
+                    draggable="false"
+                  />
+                </div>
+                <h2>Theertha S Nair</h2>
+                <span>WIE Coordinator</span>
+              </li>
+              <li class="cardC">
+                <div class="img">
+                  <img
+                    src="../execom/ExecomPics/abhinand.JPG"
+                    alt=""
+                    draggable="false"
+                  />
+                </div>
+                <h2>Abhinand K P</h2>
+                <span>Joint - Secretary</span>
+              </li>
+              <li class="cardC">
+                <div class="img">
+                  <img
+                    src="../execom/ExecomPics/lerin.JPG"
+                    alt=""
+                    draggable="false"
+                  />
+                </div>
+                <h2>Lerin J Ukken</h2>
+                <span>Joint - Secretary</span>
+              </li>
+              <li class="cardC">
+                <div class="img">
+                  <img
+                    src="../execom/ExecomPics/jyothika.JPG"
+                    alt=""
+                    draggable="false"
+                  />
+                </div>
+                <h2>Jyothika A S</h2>
+                <span>Joint - Treasurer</span>
+              </li>
+            </ul>
+            <i id="right" class="fa-solid fas fa-angle-right"></i>
+          </div>
         </div>
       </section>
       <!-- MD team -->
@@ -440,7 +590,7 @@
         <div class="container">
           <h2 class="fw-bold">Membership Development Team</h2>
           <div class="row">
-            <div class="col-9">
+            <div class="col-md-9 col-sm-12">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
                 consequatur, consequuntur eius a itaque beatae quod laborum! In
@@ -454,7 +604,7 @@
               </p>
 
               <div
-                class="row row-cols-1 row-cols-md-4 px-2 pt-1 g-2 text-center justify-content-evenly"
+                class="row row-cols-1 row-cols-md-4 px-2 pt-1 g-2 text-center justify-content-evenly hide"
               >
                 <div class="col">
                   <div class="card h-100 shadow border">
@@ -536,7 +686,7 @@
               </div>
             </div>
 
-            <div class="col-3 team-lead">
+            <div class="col-3 team-lead hide">
               <div class="col text-center">
                 <div class="card h-100 shadow border">
                   <div class="card-body">
@@ -564,6 +714,57 @@
               </div>
             </div>
           </div>
+          <!-- MD team carousel -->
+          <div class="wrapper hideCarousel">
+            <i id="left" class="fa-solid fas fa-angle-left"></i>
+            <ul class="carousel">
+              <li class="cardC">
+                <div class="img">
+                  <img
+                    src="../execom/ExecomPics/aaron.JPG"
+                    alt=""
+                    draggable="false"
+                  />
+                </div>
+                <h2>Aaron Rajesh</h2>
+                <span>Lead</span>
+              </li>
+              <li class="cardC">
+                <div class="img">
+                  <img
+                    src="../execom/ExecomPics/kashyap.JPG"
+                    alt=""
+                    draggable="false"
+                  />
+                </div>
+                <h2>Kashyap Ajaikumar</h2>
+                <span>Co-Lead</span>
+              </li>
+              <li class="cardC">
+                <div class="img">
+                  <img
+                    src="../execom/ExecomPics/abhijai.JPG"
+                    alt=""
+                    draggable="false"
+                  />
+                </div>
+                <h2>Abhijai B</h2>
+                <span>Co-Lead</span>
+              </li>
+              <li class="cardC">
+                <div class="img">
+                  <img
+                    src="../execom/ExecomPics/gourinanda.JPG"
+                    alt=""
+                    draggable="false"
+                  />
+                </div>
+                <h2>Gourinanda D</h2>
+                <span>Co-Lead</span>
+              </li>
+            </ul>
+            <i id="right" class="fa-solid fas fa-angle-right"></i>
+          </div>
         </div>
       </section>
       <!-- Content team -->
@@ -571,7 +772,7 @@
         <div class="container">
           <h2 class="fw-bold">Content Team</h2>
           <div class="row">
-            <div class="col-9">
+            <div class="col-md-9 col-sm-12">
               <p>
                 The IEEE content team plays a vital role in contributing to
                 organizational success, stratetigically we curate and deliver
@@ -584,7 +785,7 @@
               </p>
 
               <div
-                class="row row-cols-1 row-cols-md-4 px-2 pt-1 g-2 text-center"
+                class="row row-cols-1 row-cols-md-4 px-2 pt-1 g-2 text-center hide"
               >
                 <div class="col">
                   <div class="card h-100 shadow border">
@@ -671,7 +872,7 @@
                     <div class="card-body">
                       <h5 class="card-title fw-bold">Anagha Manoj</h5>
                       <img
-                        src="../gallery/imgs/Snake_1080x1080.png"
+                        src="../execom/ExecomPics/Anagha Manoj.jpg"
                         class="card-img rounded-circle p-4"
                         alt="..."
                       />
@@ -694,13 +895,13 @@
               </div>
             </div>
 
-            <div class="col-3 team-lead">
+            <div class="col-3 team-lead hide">
               <div class="col text-center">
                 <div class="card h-100 shadow border">
                   <div class="card-body">
                     <h5 class="card-title fw-bold">Alfina Haneef P</h5>
                     <img
-                      src="../gallery/imgs/Snake_1080x1080.png"
+                      src="../execom/ExecomPics/Alfina Haneef.jpg"
                       class="card-img rounded-circle p-4"
                       alt="..."
                     />
@@ -722,6 +923,68 @@
               </div>
             </div>
           </div>
+          <!-- Content team carousel -->
+          <div class="wrapper hideCarousel">
+            <i id="left" class="fa-solid fas fa-angle-left"></i>
+            <ul class="carousel">
+              <li class="cardC">
+                <div class="img">
+                  <img
+                    src="../execom/ExecomPics/Alfina Haneef.jpg"
+                    alt=""
+                    draggable="false"
+                  />
+                </div>
+                <h2>Alfina Haneef P</h2>
+                <span>Lead</span>
+              </li>
+              <li class="cardC">
+                <div class="img">
+                  <img
+                    src="../execom/ExecomPics/isha.JPG"
+                    alt=""
+                    draggable="false"
+                  />
+                </div>
+                <h2>Isha Jegath</h2>
+                <span>Co-Lead</span>
+              </li>
+              <li class="cardC">
+                <div class="img">
+                  <img
+                    src="../execom/ExecomPics/heba.JPG"
+                    alt=""
+                    draggable="false"
+                  />
+                </div>
+                <h2>Heba Ditty</h2>
+                <span>Co-Lead</span>
+              </li>
+              <li class="cardC">
+                <div class="img">
+                  <img
+                    src="../execom/ExecomPics/gopal.JPG"
+                    alt=""
+                    draggable="false"
+                  />
+                </div>
+                <h2>Gopalakrishnan</h2>
+                <span>Co-Lead</span>
+              </li>
+              <li class="cardC">
+                <div class="img">
+                  <img
+                    src="../execom/ExecomPics/Anagha Manoj.jpg"
+                    alt=""
+                    draggable="false"
+                  />
+                </div>
+                <h2>Anagha Manoj</h2>
+                <span>Co-Lead</span>
+              </li>
+            </ul>
+            <i id="right" class="fa-solid fas fa-angle-right"></i>
+          </div>
         </div>
       </section>
       <!-- Creative team -->
@@ -729,7 +992,7 @@
         <div class="container">
           <h2 class="fw-bold">Creative Team</h2>
           <div class="row">
-            <div class="col-9">
+            <div class="col-md-9 col-sm-12">
               <p>
                 IEEE SB Creative Team is a dynamic group, where innovation meets
                 inspiration, shaping the future through creativity and
@@ -742,7 +1005,7 @@
               </p>
 
               <div
-                class="row row-cols-1 row-cols-md-4 px-2 pt-1 g-2 text-center"
+                class="row row-cols-1 row-cols-md-4 px-2 pt-1 g-2 text-center hide"
               >
                 <div class="col">
                   <div class="card h-100 shadow border">
@@ -850,7 +1113,7 @@
               </div>
             </div>
 
-            <div class="col-3 team-lead">
+            <div class="col-3 team-lead hide">
               <div class="col text-center">
                 <div class="card h-100 shadow border">
                   <div class="card-body">
@@ -878,6 +1141,68 @@
               </div>
             </div>
           </div>
+          <!-- Creative team carousel -->
+          <div class="wrapper hideCarousel">
+            <i id="left" class="fa-solid fas fa-angle-left"></i>
+            <ul class="carousel">
+              <li class="cardC">
+                <div class="img">
+                  <img
+                    src="../execom/ExecomPics/akshit.JPG"
+                    alt=""
+                    draggable="false"
+                  />
+                </div>
+                <h2>Akshit Nair</h2>
+                <span>Lead</span>
+              </li>
+              <li class="cardC">
+                <div class="img">
+                  <img
+                    src="../execom/ExecomPics/adharsh.JPG"
+                    alt=""
+                    draggable="false"
+                  />
+                </div>
+                <h2>Adharsh C S</h2>
+                <span>Co-Lead</span>
+              </li>
+              <li class="cardC">
+                <div class="img">
+                  <img
+                    src="../execom/ExecomPics/abhin.JPG"
+                    alt=""
+                    draggable="false"
+                  />
+                </div>
+                <h2>Abhin Krishna</h2>
+                <span>Co-Lead</span>
+              </li>
+              <li class="cardC">
+                <div class="img">
+                  <img
+                    src="../execom/ExecomPics/riswi.JPG"
+                    alt=""
+                    draggable="false"
+                  />
+                </div>
+                <h2>Riswi Muhammed</h2>
+                <span>Co-Lead</span>
+              </li>
+              <li class="cardC">
+                <div class="img">
+                  <img
+                    src="../execom/ExecomPics/karthik.JPG"
+                    alt=""
+                    draggable="false"
+                  />
+                </div>
+                <h2>Karthik S</h2>
+                <span>Co-Lead</span>
+              </li>
+            </ul>
+            <i id="right" class="fa-solid fas fa-angle-right"></i>
+          </div>
         </div>
       </section>
       <!-- Operations team -->
@@ -885,7 +1210,7 @@
         <div class="container">
           <h2 class="fw-bold">Operations Team</h2>
           <div class="row">
-            <div class="col-9">
+            <div class="col-md-9 col-sm-12">
               <p>
                 IEEE SB Operations Team is the backbone of our organizational
                 efficiency, ensuring the seamless execution of events and
@@ -902,7 +1227,7 @@
               </p>
 
               <div
-                class="row row-cols-1 row-cols-md-4 px-2 pt-1 g-2 text-center"
+                class="row row-cols-1 row-cols-md-4 px-2 pt-1 g-2 text-center hide"
               >
                 <div class="col">
                   <div class="card h-100 shadow border">
@@ -1010,7 +1335,7 @@
               </div>
             </div>
 
-            <div class="col-3 team-lead">
+            <div class="col-3 team-lead hide">
               <div class="col text-center">
                 <div class="card h-100 shadow border">
                   <div class="card-body">
@@ -1038,6 +1363,68 @@
               </div>
             </div>
           </div>
+          <!-- Operations team carousel -->
+          <div class="wrapper hideCarousel">
+            <i id="left" class="fa-solid fas fa-angle-left"></i>
+            <ul class="carousel">
+              <li class="cardC">
+                <div class="img">
+                  <img
+                    src="../execom/ExecomPics/amal.JPG"
+                    alt=""
+                    draggable="false"
+                  />
+                </div>
+                <h2>Amal Lal P</h2>
+                <span>Lead</span>
+              </li>
+              <li class="cardC">
+                <div class="img">
+                  <img
+                    src="../execom/ExecomPics/anand.JPG"
+                    alt=""
+                    draggable="false"
+                  />
+                </div>
+                <h2>Anand S G</h2>
+                <span>Co-Lead</span>
+              </li>
+              <li class="cardC">
+                <div class="img">
+                  <img
+                    src="../execom/ExecomPics/devika.JPG"
+                    alt=""
+                    draggable="false"
+                  />
+                </div>
+                <h2>Devika B Vinod</h2>
+                <span>Co-Lead</span>
+              </li>
+              <li class="cardC">
+                <div class="img">
+                  <img
+                    src="../execom/ExecomPics/agneya.JPG"
+                    alt=""
+                    draggable="false"
+                  />
+                </div>
+                <h2>Agneya B S</h2>
+                <span>Co-Lead</span>
+              </li>
+              <li class="cardC">
+                <div class="img">
+                  <img
+                    src="../execom/ExecomPics/kashi.JPG"
+                    alt=""
+                    draggable="false"
+                  />
+                </div>
+                <h2>Kasinadh S Shekhar</h2>
+                <span>Co-Lead</span>
+              </li>
+            </ul>
+            <i id="right" class="fa-solid fas fa-angle-right"></i>
+          </div>
         </div>
       </section>
       <!-- Technical team -->
@@ -1045,7 +1432,7 @@
         <div class="container">
           <h2 class="fw-bold">Technical Team</h2>
           <div class="row">
-            <div class="col-9">
+            <div class="col-md-9 col-sm-12">
               <p>
                 At IEEE SB UCEK, our Technical Team is at the forefront of
                 transforming ideas into reality. Focusing on cutting-edge
@@ -1057,14 +1444,14 @@
               </p>
 
               <div
-                class="row row-cols-1 row-cols-md-4 px-2 pt-1 g-2 text-center"
+                class="row row-cols-1 row-cols-md-4 px-2 pt-1 g-2 text-center hide"
               >
                 <div class="col">
                   <div class="card h-100 shadow border">
                     <div class="card-body">
                       <h5 class="card-title fw-bold">Krishna Prasanth</h5>
                       <img
-                        src="../gallery/imgs/Snake_1080x1080.png"
+                        src="../execom/ExecomPics/Krishna Prasanth.jpg"
                         class="card-img rounded-circle p-4"
                         alt="..."
                       />
@@ -1116,7 +1503,7 @@
                     <div class="card-body">
                       <h5 class="card-title fw-bold">Amarnath Sujith</h5>
                       <img
-                        src="../execom/ExecomPics/amarnath.JPG  "
+                        src="../execom/ExecomPics/amarnath.JPG"
                         class="card-img rounded-circle p-4"
                         alt="..."
                       />
@@ -1142,7 +1529,7 @@
                     <div class="card-body">
                       <h5 class="card-title fw-bold">Teny Catherine Tony</h5>
                       <img
-                        src="../gallery/imgs/Snake_1080x1080.png"
+                        src="../execom/ExecomPics/Teny Chatherin Tony.jpg"
                         class="card-img rounded-circle p-4"
                         alt="..."
                       />
@@ -1165,7 +1552,7 @@
               </div>
             </div>
 
-            <div class="col-3 team-lead">
+            <div class="col-3 team-lead hide">
               <div class="col text-center">
                 <div class="card h-100 shadow border">
                   <div class="card-body">
@@ -1193,6 +1580,68 @@
               </div>
             </div>
           </div>
+          <!-- Technical team carousel -->
+          <div class="wrapper hideCarousel">
+            <i id="left" class="fa-solid fas fa-angle-left"></i>
+            <ul class="carousel">
+              <li class="cardC">
+                <div class="img">
+                  <img
+                    src="../execom/ExecomPics/ashin.JPG"
+                    alt=""
+                    draggable="false"
+                  />
+                </div>
+                <h2>Ashin S Muhammed</h2>
+                <span>Lead</span>
+              </li>
+              <li class="cardC">
+                <div class="img">
+                  <img
+                    src="../execom/ExecomPics/Krishna Prasanth.jpg"
+                    alt=""
+                    draggable="false"
+                  />
+                </div>
+                <h2>Krishna Prasanth</h2>
+                <span>Co-Lead</span>
+              </li>
+              <li class="cardC">
+                <div class="img">
+                  <img
+                    src="../execom/ExecomPics/chethas.JPG"
+                    alt=""
+                    draggable="false"
+                  />
+                </div>
+                <h2>Chethas L Pramod</h2>
+                <span>Co-Lead</span>
+              </li>
+              <li class="cardC">
+                <div class="img">
+                  <img
+                    src="../execom/ExecomPics/amarnath.JPG"
+                    alt=""
+                    draggable="false"
+                  />
+                </div>
+                <h2>Amarnath Sujith</h2>
+                <span>Co-Lead</span>
+              </li>
+              <li class="cardC">
+                <div class="img">
+                  <img
+                    src="../execom/ExecomPics/Teny Chatherin Tony.jpg"
+                    alt=""
+                    draggable="false"
+                  />
+                </div>
+                <h2>Teny Catherine Tony</h2>
+                <span>Co-Lead</span>
+              </li>
+            </ul>
+            <i id="right" class="fa-solid fas fa-angle-right"></i>
+          </div>
         </div>
       </section>
       <!-- R&D team -->
@@ -1200,7 +1649,7 @@
         <div class="container">
           <h2 class="fw-bold">Research & Development</h2>
           <div class="row">
-            <div class="col-9">
+            <div class="col-md-9 col-sm-12">
               <p>
                 Discover one of the driving forces behind innovation at IEEE SB
                 UCEK through our Research and Development (R&D) team. Committed
@@ -1213,7 +1662,7 @@
               </p>
 
               <div
-                class="row row-cols-1 row-cols-md-4 px-2 pt-1 g-2 text-center justify-content-evenly"
+                class="row row-cols-1 row-cols-md-4 px-2 pt-1 g-2 text-center justify-content-evenly hide"
               >
                 <div class="col">
                   <div class="card h-100 shadow border">
@@ -1295,13 +1744,13 @@
               </div>
             </div>
 
-            <div class="col-3 team-lead">
+            <div class="col-3 team-lead hide">
               <div class="col text-center">
                 <div class="card h-100 shadow border">
                   <div class="card-body">
                     <h5 class="card-title fw-bold">Bharath V</h5>
                     <img
-                      src="../gallery/imgs/Snake_1080x1080.png"
+                      src="../execom/ExecomPics/Bharath V.jpg"
                       class="card-img rounded-circle p-4"
                       alt="..."
                     />
@@ -1323,6 +1772,57 @@
               </div>
             </div>
           </div>
+          <!-- R&D team carousel -->
+          <div class="wrapper hideCarousel">
+            <i id="left" class="fa-solid fas fa-angle-left"></i>
+            <ul class="carousel">
+              <li class="cardC">
+                <div class="img">
+                  <img
+                    src="../execom/ExecomPics/Bharath V.jpg"
+                    alt=""
+                    draggable="false"
+                  />
+                </div>
+                <h2>Bharath V</h2>
+                <span>Lead</span>
+              </li>
+              <li class="cardC">
+                <div class="img">
+                  <img
+                    src="../execom/ExecomPics/mihirima.JPG"
+                    alt=""
+                    draggable="false"
+                  />
+                </div>
+                <h2>Mihirima A R</h2>
+                <span>Co-Lead</span>
+              </li>
+              <li class="cardC">
+                <div class="img">
+                  <img
+                    src="../execom/ExecomPics/hithesh.JPG"
+                    alt=""
+                    draggable="false"
+                  />
+                </div>
+                <h2>Hithesh G</h2>
+                <span>Co-Lead</span>
+              </li>
+              <li class="cardC">
+                <div class="img">
+                  <img
+                    src="../execom/ExecomPics/mahadevan.JPG"
+                    alt=""
+                    draggable="false"
+                  />
+                </div>
+                <h2>M Mahadevan</h2>
+                <span>Co-Lead</span>
+              </li>
+            </ul>
+            <i id="right" class="fa-solid fas fa-angle-right"></i>
+          </div>
         </div>
       </section>
       <!-- Strategic team -->
@@ -1330,7 +1830,7 @@
         <div class="container">
           <h2 class="fw-bold">Strategic Team</h2>
           <div class="row">
-            <div class="col-9">
+            <div class="col-md-9 col-sm-12">
               <p>
                 The Strategic Team in IEEE SB demonstrates strategic foresight,
                 effective planning and innovative problem-solving to drive
@@ -1343,7 +1843,7 @@
               </p>
 
               <div
-                class="row row-cols-1 row-cols-md-4 px-2 pt-1 g-2 text-center justify-content-evenly"
+                class="row row-cols-1 row-cols-md-4 px-2 pt-1 g-2 text-center justify-content-evenly hide"
               >
                 <div class="col">
                   <div class="card h-100 shadow border">
@@ -1402,7 +1902,7 @@
                     <div class="card-body">
                       <h5 class="card-title fw-bold">Theertha Madhu</h5>
                       <img
-                        src="../gallery/imgs/Snake_1080x1080.png"
+                        src="../execom/ExecomPics/Theertha Madhu.jpg"
                         class="card-img rounded-circle p-4"
                         alt="..."
                       />
@@ -1425,7 +1925,7 @@
               </div>
             </div>
 
-            <div class="col-3 team-lead">
+            <div class="col-3 team-lead hide">
               <div class="col text-center">
                 <div class="card h-100 shadow border">
                   <div class="card-body">
@@ -1453,6 +1953,57 @@
               </div>
             </div>
           </div>
+          <!-- Strategic team carousel -->
+          <div class="wrapper hideCarousel">
+            <i id="left" class="fa-solid fas fa-angle-left"></i>
+            <ul class="carousel">
+              <li class="cardC">
+                <div class="img">
+                  <img
+                    src="../execom/ExecomPics/adhilN.JPG"
+                    alt=""
+                    draggable="false"
+                  />
+                </div>
+                <h2>Adil Muhammed N S</h2>
+                <span>Lead</span>
+              </li>
+              <li class="cardC">
+                <div class="img">
+                  <img
+                    src="../execom/ExecomPics/bharath.JPG"
+                    alt=""
+                    draggable="false"
+                  />
+                </div>
+                <h2>Bharath Babu D</h2>
+                <span>Co-Lead</span>
+              </li>
+              <li class="cardC">
+                <div class="img">
+                  <img
+                    src="../execom/ExecomPics/abhira.JPG"
+                    alt=""
+                    draggable="false"
+                  />
+                </div>
+                <h2>Abhira S S</h2>
+                <span>Co-Lead</span>
+              </li>
+              <li class="cardC">
+                <div class="img">
+                  <img
+                    src="../execom/ExecomPics/Theertha Madhu.jpg"
+                    alt=""
+                    draggable="false"
+                  />
+                </div>
+                <h2>Theertha Madhu</h2>
+                <span>Co-Lead</span>
+              </li>
+            </ul>
+            <i id="right" class="fa-solid fas fa-angle-right"></i>
+          </div>
         </div>
       </section>
       <!-- Marketing team -->
@@ -1460,7 +2011,7 @@
         <div class="container">
           <h2 class="fw-bold">Marketing Team</h2>
           <div class="row">
-            <div class="col-9">
+            <div class="col-md-9 col-sm-12">
               <p>
                 Meet the strategic force behind our outreach and engagement
                 efforts. Committed to promoting our initiatives and fostering
@@ -1470,7 +2021,7 @@
               </p>
 
               <div
-                class="row row-cols-1 row-cols-md-4 px-2 pt-1 g-2 text-center justify-content-evenly"
+                class="row row-cols-1 row-cols-md-4 px-2 pt-1 g-2 text-center justify-content-evenly hide"
               >
                 <div class="col">
                   <div class="card h-100 shadow border">
@@ -1549,36 +2100,10 @@
                     </div>
                   </div>
                 </div>
-
-                <!-- <div class="col">
-                  <div class="card h-100 shadow border">
-                    <div class="card-body">
-                      <h5 class="card-title fw-bold">Card title</h5>
-                      <img
-                        src="../execom/ExecomPics/"
-                        class="card-img rounded-circle p-4"
-                        alt="..."
-                      />
-                      <p class="card-text">Co-Lead</p>
-                      <a href="#" class="card-link p-0 link-opacity-50-hover">
-                        <i
-                          class="bi bi-instagram pe-3"
-                          style="font-size: 1.2rem"
-                        ></i
-                      ></a>
-                      <a href="#" class="card-link p-0 link-opacity-50-hover"
-                        ><i
-                          class="bi bi-linkedin pe-3"
-                          style="font-size: 1.2rem"
-                        ></i
-                      ></a>
-                    </div>
-                  </div>
-                </div> -->
               </div>
             </div>
 
-            <div class="col-3 team-lead">
+            <div class="col-3 team-lead hide">
               <div class="col text-center">
                 <div class="card h-100 shadow border">
                   <div class="card-body">
@@ -1605,6 +2130,57 @@
                 </div>
               </div>
             </div>
+          </div>
+          <!-- Marketing team carousel -->
+          <div class="wrapper hideCarousel">
+            <i id="left" class="fa-solid fas fa-angle-left"></i>
+            <ul class="carousel">
+              <li class="cardC">
+                <div class="img">
+                  <img
+                    src="../execom/ExecomPics/aadil.JPG"
+                    alt=""
+                    draggable="false"
+                  />
+                </div>
+                <h2>Aadil Mohammed A</h2>
+                <span>Lead</span>
+              </li>
+              <li class="cardC">
+                <div class="img">
+                  <img
+                    src="../execom/ExecomPics/irfan.JPG"
+                    alt=""
+                    draggable="false"
+                  />
+                </div>
+                <h2>Mohammed Irfan P</h2>
+                <span>Co-Lead</span>
+              </li>
+              <li class="cardC">
+                <div class="img">
+                  <img
+                    src="../execom/ExecomPics/meenakshi.JPG"
+                    alt=""
+                    draggable="false"
+                  />
+                </div>
+                <h2>Meenakshi S</h2>
+                <span>Co-Lead</span>
+              </li>
+              <li class="cardC">
+                <div class="img">
+                  <img
+                    src="../execom/ExecomPics/gouriK.JPG"
+                    alt=""
+                    draggable="false"
+                  />
+                </div>
+                <h2>Gouri Krishna V R</h2>
+                <span>Co-Lead</span>
+              </li>
+            </ul>
+            <i id="right" class="fa-solid fas fa-angle-right"></i>
           </div>
         </div>
       </section>
@@ -1753,5 +2329,6 @@
       integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
       crossorigin="anonymous"
     ></script>
+    <script src="script.js"></script>
   </body>
 </html>
