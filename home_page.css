@@ -29,6 +29,7 @@ body {
 /* Main Header */
 .main-header {
   background: url(./assets/background.png) fixed;
+  background-size: cover;
   color: #fff;
   padding: 200px 0;
   /* margin-bottom: 50px; */
