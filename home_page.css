@@ -4,6 +4,10 @@ body {
   background-color: #f8f9fa;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 /* Navbar */
 .navbar {
   background-color: rgb(41, 41, 41); /* Black background */
@@ -31,8 +35,7 @@ body {
   background: url(./assets/background.png) fixed;
   background-size: cover;
   color: #fff;
-  padding: 200px 0;
-  /* margin-bottom: 50px; */
+  padding: 10% 0;
 }
 
 .h4 {
@@ -50,14 +53,6 @@ body {
   font-size: 1.5rem;
 }
 
-/* Text Center */
-/* .text-center h1,
-.text-center h2,
-.text-center h4,
-.text-center h5 {
-  font-weight: 800;
-} */
-
 .text-center p {
   font-size: 1rem;
 }
@@ -68,12 +63,6 @@ body {
 .sb-chapters-section img {
   border-radius: 5px;
 }
-
-/* .vision-mission-section,
-.events-section,
-.sb-chapters-section {
-  padding: 40px 0;
-} */
 
 /* Events Section */
 .events-section .card {
@@ -191,65 +180,4 @@ body {
   .counter-wrapper {
     grid-template-columns: 1fr;
   }
-}
-
-/* Footer */
-.bottom-bar {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-start;
-  background-color: #006da5; /* Updated color */
-  color: #ffffff;
-  padding: 20px 40px;
-  font-family: "Poppins", sans-serif;
-  font-size: 14px;
-}
-
-/* Footer Column */
-.footer-column {
-  flex: 1;
-  margin-right: 20px;
-}
-
-/* Footer Heading */
-.footer-heading {
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-/* Footer Links */
-.quick-links-list,
-.follow-us-list,
-.legal-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-/* Footer Links - Anchor */
-.quick-links-list a,
-.follow-us-list a,
-.legal-list a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-/* Footer Contact Info */
-.contact-info {
-  margin-top: 10px;
-}
-
-/* Rights to Website */
-.rights-to-website {
-  text-align: center;
-  padding: 10px 0;
-}
-
-/* Rights to Website Paragraph */
-.rights-to-website p {
-  margin: 5px 0;
-}
-#footr footer a {
-  color: white !important;
 }
