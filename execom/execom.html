@@ -21,52 +21,50 @@
     />
   </head>
   <body>
-    <nav class="header">
-      <header
-        class="d-flex flex-wrap justify-content-center py-2 mw-100 align-items-center"
-        style="background-color: rgb(41, 41, 41)"
-      >
-        <a
-          href="../index.html"
-          class="d-flex mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
-        >
-          <img
-            class="logo ps-4"
+    <nav class="navbar navbar-expand-lg bg-body-primary sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand px-3" href="../index.html"
+          ><img
             src="../assets/IEEE logo Full White_final.png"
-            alt="IEEE logo"
+            alt="IEEE Logo"
             width="auto"
-            height="50px"
+            height="55px"
+            class="d-inline-block align-top"
           />
         </a>
-
-        <ul class="nav nav-pills pe-2">
-          <li class="nav-item" style="translate: 20px 0px">
-            <a
-              href="../index.html"
-              class="nav-link link-light link-opacity-50-hover"
-              >Home</a
-            >
-          </li>
-          <!-- <li class="nav-item" style="translate: 20px 0px">
-            <a
-              href="../past-events/past-events.html"
-              class="nav-link link-light link-opacity-50-hover"
-              >Events</a
-            >
-          </li> -->
-          <li class="nav-item" style="translate: 10px 0px">
-            <a
-              href="../gallery/gallery.html"
-              class="nav-link link-light link-opacity-50-hover"
-              >Gallery</a
-            >
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link" aria-current="page">Execom</a>
-          </li>
-        </ul>
-      </header>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i
+            class="bi bi-list"
+            style="font-size: 2.5rem; color: whitesmoke"
+          ></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../gallery/gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Execom</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../about/About.html">About Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
+
     <main>
       <section
         class="py-lg-16 py-10"
@@ -2183,10 +2181,11 @@
         </div>
       </section>
     </main>
+
     <footer class="p-5 mt-5" style="background-color: rgb(0, 109, 165)">
       <div class="container">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5">
-          <div class="col mb-3">
+        <div class="row row-cols-auto flex-column flex-md-row">
+          <div class="col-4 mb-3">
             <a
               href="/"
               class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none"
@@ -2195,7 +2194,7 @@
                 class="logo"
                 src="../assets/IEEE logo Full White_final.png"
                 alt="IEEE logo"
-                style="width: auto; height: 36px"
+                style="width: auto; height: 40px"
               />
             </a>
             <p class="text-light">
@@ -2204,7 +2203,7 @@
             </p>
           </div>
 
-          <div class="col mb-3">
+          <div class="col-3 mb-3">
             <h5 class="text-light">Quick Links</h5>
             <ul class="nav flex-column">
               <li class="nav-item mb-2">
@@ -2255,7 +2254,7 @@
             <ul class="nav flex-column">
               <li class="nav-item mb-2">
                 <a
-                  href="https://www.instagram.com/ieeesbucek?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                  href="https://www.instagram.com/ieeesbucek"
                   class="nav-link p-0 link-light link-opacity-50-hover"
                   target="_blank"
                   ><i class="bi bi-instagram pe-3" style="font-size: 1.2rem"></i
@@ -2283,7 +2282,7 @@
             </ul>
           </div>
 
-          <div class="col mb-3">
+          <!-- <div class="col mb-3">
             <h5 class="text-light">Contact</h5>
             <ul class="nav flex-column">
               <li class="nav-item mb-2">
@@ -2293,9 +2292,9 @@
                 >
               </li>
             </ul>
-          </div>
+          </div> -->
 
-          <div class="col mb-3">
+          <!-- <div class="col mb-3">
             <ul class="nav flex-column">
               <li class="nav-item mb-2">
                 <a
@@ -2312,7 +2311,7 @@
                 >
               </li>
             </ul>
-          </div>
+          </div> -->
         </div>
       </div>
     </footer>

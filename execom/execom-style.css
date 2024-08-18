@@ -5,6 +5,26 @@
   /* font-family: "Times New Roman", Times, serif; */
 }
 
+/* Body */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Navbar */
+.navbar {
+  background-color: rgb(41, 41, 41); /* Black background */
+}
+
+.navbar a {
+  color: #fff; /* White text */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.navbar a:hover {
+  color: #006da5; /* Hover color */
+}
+
 .chair {
   transform: translateY(-40px);
 }
