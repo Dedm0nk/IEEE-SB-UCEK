@@ -39,15 +39,15 @@ h1 {
   gap: 20px;
 }
 
-.media img {
+.media > * {
   width: 100%;
-  height: 100%;
+  height: auto;
   border-radius: 7px;
   object-fit: cover;
   transition: all 0.2s ease-in-out;
 }
 
-.media img:hover {
+.media > *:hover {
   transform: scale(1.05);
 }
 
